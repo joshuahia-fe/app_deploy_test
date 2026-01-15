@@ -5,7 +5,18 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "folium>=0.20.0",
+    "ipynb>=0.5.1",
+    "matplotlib>=3.10.8",
+    "pandas>=2.3.3",
     "pre-commit>=4.0.1",
+    "pydantic-core>=2.41.5",
     "pydantic-settings>=2.9.1",
+    "scikit-learn>=1.8.0",
     "structlog>=25.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
 ]
