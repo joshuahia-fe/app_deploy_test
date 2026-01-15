@@ -1,14 +1,5 @@
 # Python-Template
 
-## Features
-
-* uv for environment management
-* Pre-commit for linting and formatting
-* Pydantic for configuration
-* Structlog for logging
-
-:arrow_right: For usage details see [Project Setup](https://github.com/Frontier-Economics/ds-knowledge/blob/main/docs/python/project-setup.md) on the DS Knowledge Hub.
-
 ## Project Structure
 
 ```
